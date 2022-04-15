@@ -1,10 +1,31 @@
 {
-    "locations":[
-        {"title":"London","location_type":"City","woeid":44418,"latt_long":"51.506321,-0.12714"},
-        {"title":"Chicago","location_type":"City","woeid":44419,"latt_long":"51.506321,-0.12715"},
-        {"title":"Tokyo","location_type":"City","woeid":44420,"latt_long":"51.506321,-0.12716"},
-        {"title":"Oslo","location_type":"City","woeid":44421,"latt_long":"51.506321,-0.12717"},
-        {"title":"Kyoto","location_type":"City","woeid":44422,"latt_long":"51.506321,-0.12718"},
-        {"title":"Seul","location_type":"City","woeid":44423,"latt_long":"51.506321,-0.12719"}
-    ]
+  "posts": [
+    {
+      "id": 1,
+      "title": "Post 1"
+    },
+    {
+      "id": 2,
+      "title": "Post 2"
+    },
+    {
+      "id": 3,
+      "title": "Post 3"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    },
+    {
+      "id": 2,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
 }
